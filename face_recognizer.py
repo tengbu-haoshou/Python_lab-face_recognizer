@@ -18,11 +18,11 @@ from tkinterdnd2 import *
 from PIL import Image, ImageTk, ImageOps
 
 # Constants
+XML_FILE_PATH = '.\\xml\\haarcascade_frontalface_default.xml'
 WINDOW_RATIO = 60
 WINDOW_WIDTH = 16 * WINDOW_RATIO
 WINDOW_HEIGHT = 10 * WINDOW_RATIO
 LINE_GAP = 70
-XML_FILE_PATH = '.\\xml\\haarcascade_frontalface_default.xml'
 
 
 # Recognize Face
@@ -52,7 +52,7 @@ def main() -> None:
 
         global disp_image
 
-        canvas.delete("all")
+        canvas.delete('all')
         canvas_width = canvas.winfo_width()
         canvas_height = canvas.winfo_height()
         try:
@@ -80,7 +80,7 @@ def main() -> None:
 
     root.drop_target_register(DND_FILES)
     root.dnd_bind('<<Drop>>', drop_file)
-    canvas = tk.Canvas(root, bg="white")
+    canvas = tk.Canvas(root, bg='white')
     canvas.pack(expand=True, fill=tk.BOTH)
 
     root.mainloop()
