@@ -4,7 +4,7 @@
 # test_recognize_face.py
 #
 # Date    : 2024-05-26
-# Auther  : Hirotoshi FUJIBE
+# Author  : Hirotoshi FUJIBE
 # History :
 #
 # Copyright (c) 2024 Hirotoshi FUJIBE
