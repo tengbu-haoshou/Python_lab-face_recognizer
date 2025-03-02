@@ -18,7 +18,7 @@ from tkinterdnd2 import *
 from PIL import Image, ImageTk, ImageOps
 
 # Constants
-XML_FILE_PATH = '.\\xml\\haarcascade_frontalface_default.xml'
+XML_FILE_PATH = 'xml/haarcascade_frontalface_default.xml'
 WINDOW_RATIO = 60
 WINDOW_WIDTH = 16 * WINDOW_RATIO
 WINDOW_HEIGHT = 10 * WINDOW_RATIO

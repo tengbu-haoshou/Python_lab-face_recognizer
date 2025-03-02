@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 # Main
 def main() -> None:
 
-    cascade_file = '.\\xml\\haarcascade_frontalface_default.xml'
+    cascade_file = 'xml/haarcascade_frontalface_default.xml'
     cascade = cv2.CascadeClassifier(cascade_file)
     image_org = cv2.imread('.\\input\\face.jpg')
     image_gray = cv2.cvtColor(image_org, cv2.COLOR_BGR2GRAY)
